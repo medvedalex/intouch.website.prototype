@@ -1,7 +1,12 @@
-extends ./index.jade
+extends ./layout.jade
 
 block title
 	title About
 
 block content
-	h1 about text blah-blah-blah
+	h1 About us
+	p.lead inTouch was founded in 2017 in Russia.
+	p.lead We set ourselves a goal to learn the human emotions. We use the own hardware platform to get data from the human body and analize it with algorithms of machine learning.
+
+block menuItems
+	+list("about")
