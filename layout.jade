@@ -1,6 +1,9 @@
 doctype html
 html
 	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
 		block title
 		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
 		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous")
@@ -22,19 +25,19 @@ html
 					mixin list(active)
 						ul.nav.navbar-nav
 							li(class=(active=="home"?"active":""))
-								a(href="index.html") Home
+								a(href="/") Home
 							li(class=(active=="about"?"active":""))
-								a(href="about.html") About
+								a(href="about") About
 							li(class=(active=="mission"?"active":""))
-								a(href="mission.html") Mission
+								a(href="mission") Mission
 							li(class=(active=="science"?"active":""))
-								a(href="science.html") Science
+								a(href="science") Science
 							li(class=(active=="press"?"active":""))
-								a(href="press.html") Press
+								a(href="press") Press
 							li(class=(active=="blog"?"active":""))
-								a(href="blog.html") Blog
+								a(href="blog") Blog
 							li(class=(active=="contacts"?"active":""))
-								a(href="contacts.html") Contacts
+								a(href="contacts") Contacts
 					block menuItems
 
 		.container
