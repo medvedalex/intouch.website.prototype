@@ -7,16 +7,16 @@ block content
 	h1 Be inTouch with your emotions
 	div#myCarousel.carousel.slide(data-ride="carousel")
 		ol.carousel-indicators
-			li.active(data-target="#myCarousel" data-slide-to="0")
-			li(data-target="#myCarousel" data-slide-to="1")
+			li(data-target="#myCarousel" data-slide-to="0")
+			li.active(data-target="#myCarousel" data-slide-to="1")
 			li(data-target="#myCarousel" data-slide-to="2")
 			li(data-target="#myCarousel" data-slide-to="3")
 			li(data-target="#myCarousel" data-slide-to="4")
 
 		.carousel-inner(role="listbox")
-			.item.active
-				img.first-slide(src="pictures/home/c1.jpg")
 			.item
+				img.first-slide(src="pictures/home/c1.jpg")
+			.item.active
 				img.first-slide(src="pictures/home/c2.jpg")
 			.item
 				img.first-slide(src="pictures/home/c3.jpg")
