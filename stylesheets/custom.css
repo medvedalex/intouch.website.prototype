@@ -17,7 +17,8 @@
 }
 
 .social {
-	float: right;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 .fa {
@@ -33,3 +34,4 @@
 .news{
 	text-align: left;
 }
+
