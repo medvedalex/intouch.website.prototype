@@ -4,7 +4,20 @@ block title
 	title Blog
 
 block content
-	h1 Blog content will be here
+	.container.blog
+		.blog-header
+			h1.blog-title inTouch Blog 
+		br
+		.row
+			.col-sm-8.blog-main
+				.blog-post
+					h2.blog-post-title We made our site!
+					p.blog-post-meta June 14, 2017
+					p.lead This blog post is test post that describes how we made our site. It is for seeing how the blog will look. We use Jade template engine to generate static html pages and then host them on GitHub Pages. We use Bootstrap to make modern good looking website which will be works on desktops and mobile devices. 
+			.col-sm-3.col-sm-offset-1.blog-sidebar
+				.sidebar-module.sidebar-module-inset
+					h4 About
+					p We use this blog to post some interesting information about our project.
 
 block menuItems
 	+list("blog")
