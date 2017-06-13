@@ -1,5 +1,11 @@
-html
-	head
-		Error 404!
-	body
-		Page not found!
+extends ./layout.jade
+
+block title
+	title Error 404!
+
+block content
+	h1 Oops! Page not found!
+	img.img-fluid(src="pictures/404.jpg")
+
+block menuItems
+	+list("page404")
