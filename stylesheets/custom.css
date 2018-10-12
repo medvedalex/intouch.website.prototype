@@ -44,6 +44,9 @@
     margin-right: 5px;
 }
 
+.associate{
+	float: right;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
